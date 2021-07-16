@@ -1,0 +1,109 @@
+.servants {
+  margin-left: 20px;
+  margin-right: 20px;
+  .servants__title {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: 0.5;
+  }
+  h1 {
+    font-size: 32px;
+    line-height: 38px;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(#f0145a, #ef8080);
+    -webkit-background-clip: text;
+    margin-bottom: 20px;
+  }
+  a {
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #24a3ff;
+  }
+  p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+.servants__conteiner__commerce {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.servants__conteiner {
+  p {
+    padding-bottom: 40px;
+  }
+  .last-child {
+    padding-bottom: 20px;
+  }
+}
+.servants__background {
+  background: linear-gradient(
+    215deg,
+    rgba(50, 50, 100, 1),
+    rgba(50, 50, 100, 1),
+    rgba(122, 66, 94, 1)
+  );
+}
+@media screen and (min-width: 1120px) {
+  .servants {
+    margin-left: 60px;
+    margin-right: 60px;
+    h1 {
+      font-size: 42px;
+      line-height: 50px;
+      margin-bottom: 68px;
+    }
+  }
+  .servants__conteiner__list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .servants__conteiner__list__item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    margin-left: 0;
+    margin-right: 40px;
+    margin-bottom: 38px;
+  }
+  .servants__conteiner__commerce {
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 15px;
+    img {
+      width: 92px;
+      margin-bottom: 20px;
+    }
+  }
+  .servants__conteiner__list {
+    flex-direction: row;
+  }
+  .servants__conteiner {
+    li:nth-child(3) {
+      margin-right: 0;
+    }
+    li:nth-child(6) {
+      margin-right: 0;
+    }
+    a {
+      font-size: 24px;
+      line-height: 28px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
+}
+@media screen and (min-width: 1440px) {
+  .servants__conteiner__list__item {
+    width: 31%;
+  }
+}

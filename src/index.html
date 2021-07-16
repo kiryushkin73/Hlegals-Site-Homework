@@ -1,20 +1,567 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Hlegals-Site-Homework</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
   </head>
   <body>
     <header class="header">
-      <div class="conteiner header__conteiner">
-        <a href="#" class="logo">
-          <img src="img/Name.svg" alt="namelogo_Hlagals" class="logo__img" />
-          <span class="logo__text"></span>
-        </a>
+      <div class="background-color">
+        <div class="header__conteiner">
+          <div class="lange-container">
+            <div class="lange-container__lange">
+              <input
+                class="lange__checkbox"
+                checked
+                name="lange"
+                id="ukLangeCheckbox"
+                type="radio"
+              />
+              <label class="lange__label" for="ukLangeCheckbox">ук</label>
+            </div>
+            <div class="lange-container__lang">
+              <input
+                class="lange__checkbox"
+                name="lange"
+                id="ruLangeCheckbox"
+                type="radio"
+              />
+              <label class="lange__label" for="ruLangeCheckbox">ру</label>
+            </div>
+            <div class="lange-container__lang">
+              <input
+                class="lange__checkbox"
+                name="lange"
+                id="enLangeCheckbox"
+                type="radio"
+              />
+              <label class="lange__label" for="enLangeCheckbox">en</label>
+            </div>
+          </div>
+          <div class="header__conteiner__list">
+            <ul class="header__conteiner__list__contacts">
+              <li
+                class="list__item header__conteiner__list__contacts-address"
+                id="header__conteiner__list__contacts-address"
+              >
+                Одеса, Адміральський пр., 3
+              </li>
+              <li class="list__item header__conteiner__list__contacts-phone">
+                <a href="tel:+380503901591">+38 (050) 390 15 91</a>
+              </li>
+              <li
+                class="list__item header__conteiner__list__contacts-facebook"
+                id="header__conteiner__list__contacts-facebook"
+              >
+                <a href="#"
+                  ><img src="img/Facebook_header.svg" alt="the logo fecebook"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="logo__conteiner">
+          <div class="conteiner logo__conteiner__menu">
+            <a href="#" class="logo">
+              <img
+                src="img/logo_name.svg"
+                alt="namelogo_Hlagals"
+                class="logo__img"
+              />
+              <span class="logo__text">юридична компанія</span>
+            </a>
+          </div>
+          <nav class="navigation">
+            <input type="checkbox" class="" id="hamburgerCheckbox" />
+            <label for="hamburgerCheckbox"
+              ><img
+                src="img/Hamburger_navigation.svg"
+                class="hamburger_navigation-img"
+                alt="navigation menu"
+            /></label>
+            <ul class="navigation__list navigation__list--active">
+              <li class="navigation__item">
+                <a href="#" rel="noopener noreferrer"> о нас </a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" rel="noopener noreferrer"> послуги</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" rel="noopener noreferrer"> команда</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" rel="noopener noreferrer"> публікації</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" rel="noopener noreferrer"> контакти</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <section class="about__Hlegals">
+          <img
+            src="img/about__Hlegals__p-backgraund.png"
+            alt="many letters p"
+            class="about__Hlegals__img-destop"
+          />
+          <img
+            src="img/about__Hlegals__p.png"
+            alt="big red letter p"
+            class="about__Hlegals__img"
+          />
+          <p class="about__Hlegals__text">
+            системний адміністратор правових рішень
+          </p>
+          <a href="#scrolldown"
+            ><img
+              src="img/hero_scrolldown.svg"
+              alt="go to the text"
+              class="about__Hlegals__scrolldomn"
+          /></a>
+          <div class="about__Hlegals-background"></div>
+          <div class="about__Hlegals__conteiner">
+            <div class="about__Hlegals__titles">
+              <p class="about__Hlegals__conteiner__text-colored">Послідовні</p>
+              <p class="about__Hlegals__titles-item">Клієнтоорієнтовані</p>
+              <p class="about__Hlegals__titles-item">Інноваційні</p>
+              <p class="about__Hlegals__titles-item">
+                Бізнес-орієнтовані <br />
+                юристи
+              </p>
+            </div>
+            <div class="about__Hlegals__titles-text">
+              <h2>Перевертаємо уявлення про юридичні послуги</h2>
+              <p id="scrolldown">
+                Консолідуючи багаторічний досвід і практику, юристи компанії
+                супроводжують складні проекти і досягають прийняття ряду
+                важливих для галузі рішень. Багато з них формують практику
+                застосування морського права в Україні.
+              </p>
+            </div>
+          </div>
+          <div class="about__Hlegals__conteiner__toggle_text">
+            <div>
+              <input
+                class="switching__checkbox"
+                checked
+                name="switching"
+                id="onetextCheckbox"
+                type="radio"
+              />
+              <label class="switching__label" for="onetextCheckbox"></label>
+            </div>
+            <div>
+              <input
+                class="switching__checkbox"
+                checked
+                name="switching"
+                id="twotextCheckbox"
+                type="radio"
+              />
+              <label class="switching__label" for="twotextCheckbox"></label>
+            </div>
+            <div>
+              <input
+                class="switching__checkbox"
+                checked
+                name="switching"
+                id="threetextCheckbox"
+                type="radio"
+              />
+              <label class="switching__label" for="threetextCheckbox"></label>
+            </div>
+            <div>
+              <input
+                class="switching__checkbox"
+                checked
+                name="switching"
+                id="fourtextCheckbox"
+                type="radio"
+              />
+              <label class="switching__label" for="fourtextCheckbox"></label>
+            </div>
+          </div>
+        </section>
       </div>
     </header>
+    <main>
+      <div class="servants__background">
+        <section class="servants">
+          <p class="servants__title">послуги ></p>
+          <h1>Що ми вміємо робити краще за інших?</h1>
+          <div class="servants__conteiner">
+            <ul class="servants__conteiner__list">
+              <li class="servants__conteiner__list__item">
+                <div class="servants__conteiner__commerce">
+                  <img
+                    src="img/servants__electronic_commerce.svg"
+                    alt="electronic_commerce"
+                  />
+                  <a href="#">IT та електронна комерція</a>
+                </div>
+                <p>
+                  Нескінчений потік договорів, податкові питання, трудові
+                  відносини, корпоративні папери — юридична робота відволікає
+                  вас від ведення бізнесу. Але роботи не так вже й багато, щоб
+                  наймати інхауз-юриста.
+                </p>
+              </li>
+              <li class="servants__conteiner__list__item">
+                <div class="servants__conteiner__commerce">
+                  <img src="img/servants__structuring.svg" alt="structuring" />
+                  <a href="#">Комплексний щоденний юридичний супровід</a>
+                </div>
+                <p>
+                  До того ж, з часом робота стане однотипною і нецікавою для
+                  штатного юриста. А ще ми добре знаємо, як важко в Україні
+                  знайти хорошого кандидата з досвідом у сфері інформаційних
+                  технологій.
+                </p>
+              </li>
+              <li class="servants__conteiner__list__item">
+                <div class="servants__conteiner__commerce">
+                  <img
+                    src="img/servants__legal_support.svg"
+                    alt="legal support"
+                  />
+                  <a href="#">Структуризація корпоративних відносин</a>
+                </div>
+                <p>
+                  Замість просто надавати юридичні послуги, ми закріпимо юриста
+                  або цілу команду, які впишуться в повсякденне життя вашої
+                  компанії.
+                </p>
+              </li>
+              <li class="servants__conteiner__list__item">
+                <div class="servants__conteiner__commerce">
+                  <img
+                    src="img/servants__structure_of_contractual_relations.svg"
+                    alt="structure of contractual relations"
+                  />
+                  <a href="#">Побудовa договірних відносин</a>
+                </div>
+                <p>
+                  Раз на тиждень, чи тиждень на місяць у вас під боком є ваш
+                  власний юрист. Будь-хто в компанії може впіймати його біля
+                  кавоварки і просто поговорити про поточні справи замість
+                  очікування статусу update.
+                </p>
+              </li>
+              <li class="servants__conteiner__list__item">
+                <div class="servants__conteiner__commerce">
+                  <img
+                    src="img/servants__business_protection.svg"
+                    alt="business_protection"
+                  />
+                  <a href="#">Захист бізнесу, інтелектуальної власності</a>
+                </div>
+                <p>
+                  А весь інший час він працюватиме над новими різноплановими
+                  проектами, тому вже точно не зупиниться в професійному
+                  розвитку. Так чи інакше, на вас працюватиме весь Axon Partners
+                  замість корпоративного юриста.
+                </p>
+              </li>
+              <li class="servants__conteiner__list__item">
+                <div class="servants__conteiner__commerce">
+                  <img
+                    src="img/servants__legal_representation.svg"
+                    alt="legal representation"
+                  />
+                  <a href="#">Судове представництво</a>
+                </div>
+                <p class="last-child">
+                  Невелика компанія, середнього розміру, чи вже лідер ринку?
+                  Локальний бізнес або транснаціональна компанія? Маєте власний
+                  юридичний відділ, чи ні?
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <section class="teams">
+        <div class="teams__background"></div>
+        <div class="teams__background-two"></div>
+        <div class="teams__conteiner">
+          <div class="teams__conteiner__situation">
+            <span class="teams__conteiner__title"> команда > </span>
+            <h4 class="teams__conteiner__title__text">
+              Ми звикли брати на себе відповідальність та завжди гарантуємо
+              чесну, вчасну допомогу, навіть у ситуаціях, коли більшість
+              безсилі.
+            </h4>
+          </div>
+          <div class="teams__trainer">
+            <img
+              src="img/teams__man.jpg"
+              alt="the men"
+              class="teams__trainer__img"
+            />
+            <p class="teams__trainer__name">
+              Олександр Кац <br />
+              <span class="teams__trainer__about">Керуючий партнер</span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="successful__cases">
+        <div
+          class="switching__conteiner successful__cases__conteiner__toggle_text"
+        >
+          <div>
+            <input
+              class="switching__checkbox"
+              checked
+              name="switching"
+              id="onetoggle_textCheckbox"
+              type="radio"
+            />
+            <label
+              class="switching__label"
+              for="onetoggle_textCheckbox"
+            ></label>
+          </div>
+          <div>
+            <input
+              class="switching__checkbox"
+              checked
+              name="switching"
+              id="twotoggle_textCheckbox"
+              type="radio"
+            />
+            <label
+              class="switching__label"
+              for="twotoggle_textCheckbox"
+            ></label>
+          </div>
+          <div>
+            <input
+              class="switching__checkbox"
+              checked
+              name="switching"
+              id="threetoggle_textCheckbox"
+              type="radio"
+            />
+            <label
+              class="switching__label"
+              for="threetoggle_textCheckbox"
+            ></label>
+          </div>
+        </div>
+        <div class="successful__conteiner">
+          <div class="successful__cases__title">
+            <p class="successful__cases__title-text">Успішні кейси</p>
+            <div class="box__list-first successful__cases__list">
+              <a href="#" class="successful__cases__list__link"
+                >Супровід проекту з купівлі-продажу сільськогосподарської
+                продукції</a
+              >
+              <h5 class="successful__cases__list__text">Hillel IT School</h5>
+            </div>
+          </div>
+
+          <div class="box__list-second successful__cases__list">
+            <a class="successful__cases__list__link" href="#"
+              >Підготовка комплексного юридичного висновку для європейського
+              банку</a
+            >
+            <p class="successful__cases__list__text">WannaBiz</p>
+          </div>
+          <div class="box__list-third successful__cases__list">
+            <a class="successful__cases__list__link" href="#"
+              >Супровід проекту з купівлі-продажу сільськогосподарської
+              продукції</a
+            >
+            <p class="successful__cases__list__text">tapgerine</p>
+          </div>
+          <div class="box__list-fourth successful__cases__list">
+            <a class="successful__cases__list__link" href="#"
+              >Представництво інтересів великого зернотрейдера в податковому
+              спорі</a
+            >
+            <p class="successful__cases__list__text">3D LOOK</p>
+          </div>
+          <div class="box__list-fifth successful__cases__list">
+            <a class="successful__cases__list__link" href="#"
+              >Оскарження податкових повідомлень-рішень ДФС</a
+            >
+            <p class="successful__cases__list__text">adtelligent</p>
+          </div>
+          <div class="box__list-sixth successful__cases__list">
+            <a class="successful__cases__list__link" href="#"
+              >Супровід проекту з кредитування агротрейдерів мальтійським
+              банком</a
+            >
+            <p class="successful__cases__list__text">Clikky</p>
+          </div>
+        </div>
+      </section>
+      <section class="confidence">
+        <h5 class="confidence__title">Вже довіряють нам</h5>
+        <div class="confidence__conteiner">
+          <div class="confidence__item confidence__item-hillel">
+            <img src="img/confidence_Hillel.svg" alt="name Hillel" />
+          </div>
+          <div class="confidence__item confidence__item-Wanna">
+            <img src="img/confidence_Wannabiz.svg" alt="name WannaBiz" />
+          </div>
+          <div class="confidence__item confidence__item-tapgerine">
+            <img src="img/confidence_tapgerine.svg" alt="name tapgerine" />
+          </div>
+          <div class="confidence__item confidence__item-3dLook">
+            <img src="img/confidence_3dlook.svg" alt="name 3d-look" />
+          </div>
+          <div class="confidence__item confidence__item-eco">
+            <img src="img/confidence_eco.svg" alt="name eco leasing" />
+          </div>
+          <div class="confidence__item confidence__item-clickky">
+            <img src="img/confidence_clickky.svg" alt="name Clikky" />
+          </div>
+          <div class="confidence__item confidence__item-oranger">
+            <img src="img/confidence_orangear.svg" alt="name oranger" />
+          </div>
+          <div class="confidence__item confidence__item-infratek">
+            <img src="img/confidence_infratek.svg" alt=" name infratek group" />
+          </div>
+          <div class="confidence__item confidence__item-ultimate">
+            <img src="img/confidence_ultimate.svg" alt=" name ultimate card" />
+          </div>
+          <div class="confidence__item confidence__item-artprint">
+            <img
+              src="img/confidence_artprint.svg"
+              alt="name art-print-studio"
+            />
+          </div>
+          <div class="confidence__item confidence__item-sitypark">
+            <img src="img/confidence_sitypark.svg" alt="name sitypark" />
+          </div>
+          <div class="confidence__item confidence__item-adtelligent">
+            <img src="img/confidence_adtelligent.svg" alt="name adtelligent" />
+          </div>
+        </div>
+      </section>
+      <section class="publication">
+        <div class="publication__conteiner">
+          <div class="publication__headlines">
+            <span class="teams__conteiner__title">Публікації > </span>
+            <h4 class="publication__conteiner-text">Нам є що розповісти</h4>
+          </div>
+          <div class="publication__destop__conteiner">
+            <div class="wrapper__conteiner">
+              <div class="publication__conteiner__currency_control">
+                <p class="publication__conteiner__content">
+                  Валютний контроль помер, хай живе валютний контроль!
+                </p>
+                <p class="publication__conteiner-date">14 червня</p>
+                <span class="publication__conteiner__currency_control-content">
+                  Експерти проводять конференції, круглі столи та іншого штибу
+                  заходи на тему «лібералізація валютного законодавства».
+                  Юристи-експерти-новелісти стирають пальці об «ctrl+c/ctrl+v».
+                </span>
+              </div>
+              <div class="commandment publication__Equity_associate">
+                <img
+                  src="img/commandment.jpg"
+                  alt="a lot of people show their tongues"
+                  class="publication__Equity_associate-img"
+                />
+                <p class="publication__conteiner__content">Заповіт міленіала</p>
+                <p class="publication__conteiner-date">19 серпня</p>
+                <span class="publication__conteiner__currency_control-content"
+                  >Що і як передаватимуть у спадщину сучасні влогери, опініон
+                  лідери і криптомільйонери Типовий спадок українського
+                  покоління Х виглядає так: квартира у…</span
+                >
+              </div>
+            </div>
+            <div class="wrapper__conteiner">
+              <div class="Equity_associate publication__Equity_associate">
+                <img
+                  class="publication__Equity_associate-img"
+                  src="img/Equity_associate.jpg"
+                  alt="large hall with people"
+                />
+                <p class="publication__conteiner__content">Equity associate</p>
+                <p class="publication__conteiner-date">22 квітня</p>
+                <span class="publication__conteiner__currency_control-content">
+                  На проектах я джун. При цьому я співвласник юридичної фірми.
+                  Як це відбулося. Перед вступом батьки мені казали, що якщо
+                  буду…
+                </span>
+              </div>
+              <div class="publication__statue">
+                <img
+                  src="img/publication__statue.jpg"
+                  alt="statue of a woman"
+                />
+              </div>
+            </div>
+            <div class="wrapper__conteiner">
+              <div class="publication__GPDR publication__Equity_associate">
+                <img
+                  src="img/GDPR__img.jpg"
+                  alt="inscription GDPR"
+                  class="publication__Equity_associate-img"
+                />
+                <p class="publication__conteiner__content">
+                  Штраф для «Корпорації добра»: що буде з Google та іншими за
+                  порушення GDPR
+                </p>
+                <p class="publication__conteiner-date">29 вересня</p>
+                <span class="publication__conteiner__currency_control-content"
+                  >І чому стягнення у 50 млн євро може стати доленосним
+                  прецедентом За матеріалами Mind.ua 21 січня Національна
+                  комісія із захисту даних.</span
+                >
+              </div>
+              <div class="publication__boy">
+                <img
+                  src="img/publication__boy_with_guitar.png"
+                  alt="nature and boy with guitar"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="publication__button">
+            <a href="#" class="publication__button-link">Ще публікації</a>
+          </div>
+          <div class="publication__background"></div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__conteiner">
+        <div class="footer__conteiner__content">
+          <div class="footer__conteiner__content-adress">
+            <p class="footer__adress">Одеса, Адміральський пр., 3</p>
+            <a href="#" class="footer__maps"> Подивитися на мапі </a>
+          </div>
+          <div class="footer__conteiner__content-contacts">
+            <img
+              src="img/Footer__Facebook-img.svg"
+              class="footer__fecebook-img"
+              alt="facebook"
+            />
+            <a
+              href="tel:+380503901591"
+              class="footer__conteiner__list__contacts-phone"
+              >+38 (050) 390 15 91</a
+            >
+            <a href="mailto:contact@hlegals.net" class="footer__mailto"
+              >contact@hlegals.net</a
+            >
+          </div>
+        </div>
+        <div>
+          <span class="footer__copyright"
+            >© 2021 ТОВ Юридична компанія «HLEGALS»</span
+          >
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,148 @@
+.background__conteiner {
+  background: white;
+}
+.teams__trainer__img {
+  width: 60px;
+  height: 60px;
+  border-radius: 120px;
+}
+.teams__background {
+  background: #cacadb;
+  border-radius: 0px 0px 12px 12px;
+  width: 335px;
+  height: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.teams__background-two {
+  background: #e7e7f2;
+  border-radius: 0px 0px 12px 12px;
+  width: 295px;
+  height: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.teams__conteiner {
+  margin-left: 20px;
+  margin-right: 20px;
+  background: #f5f5fa;
+  border-radius: 12px;
+  padding: 20px;
+  .teams__conteiner__title__text {
+    font-size: 32px;
+    line-height: 38px;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(#f0145a, #ef8080);
+    -webkit-background-clip: text;
+    margin-bottom: 10px;
+  }
+}
+.teams__conteiner__title {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24a3ff;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.teams__trainer__name {
+  font-size: 18px;
+  line-height: 21px;
+  color: #b3b3ba;
+  flex-direction: column;
+  align-self: center;
+}
+.teams__trainer__about {
+  font-size: 16px;
+  line-height: 22px;
+  color: #b3b3ba;
+  flex-direction: column;
+}
+.teams__trainer {
+  display: flex;
+  gap: 10px;
+}
+.switching__conteiner {
+  background-color: white;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 400px) {
+  .background__conteiner {
+    .teams__background {
+      width: 95%;
+    }
+    .teams__background-two {
+      width: 87%;
+      margin-bottom: 40px;
+    }
+  }
+}
+@media screen and (min-width: 1120px) {
+  .background__conteiner {
+    .teams__background {
+      width: 95%;
+    }
+    .teams__background-two {
+      width: 87%;
+      margin-bottom: 40px;
+    }
+  }
+  .teams__trainer {
+    gap: 0;
+  }
+  .teams__trainer__img {
+    width: 413px;
+    height: 500px;
+    border-radius: 0;
+    margin-right: 40px;
+  }
+  .teams__conteiner {
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    justify-content: flex-end;
+
+    .teams__conteiner__title__text {
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 38px;
+      margin-bottom: 20px;
+    }
+  }
+  .teams__trainer__name {
+    font-size: 18px;
+    line-height: 21px;
+    position: absolute;
+    left: 457px;
+    top: 2;
+    top: 320px;
+  }
+  .teams__trainer__about {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .teams__conteiner__situation {
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .teams__conteiner {
+    h4 {
+      width: 827px;
+    }
+    .teams__conteiner__title__text {
+      font-weight: bold;
+      font-size: 42px;
+      line-height: 50px;
+      width: 827px;
+      margin-bottom: 20px;
+    }
+  }
+}

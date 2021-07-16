@@ -1,0 +1,282 @@
+.publication {
+  .publication__conteiner {
+    background: #f5f5fa;
+    border-radius: 0px;
+  }
+  .teams__conteiner__title {
+    margin-bottom: 3px;
+  }
+}
+.publication__headlines {
+  padding: 20px;
+}
+.publication__conteiner-text {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: bold;
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(#f0145a, #ef8080);
+  -webkit-background-clip: text;
+}
+.publication__conteiner__currency_control {
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.publication__conteiner__content {
+  font-size: 18px;
+  line-height: 21px;
+  color: #24a3ff;
+  margin-bottom: 10px;
+}
+.publication__conteiner-date {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #b3b3ba;
+}
+.publication__Equity_associate-img {
+  display: flex;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.publication__Equity_associate {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  .publication__conteiner-date {
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+  .publication__conteiner__content {
+    padding-left: 20px;
+  }
+}
+.commandment {
+  margin-bottom: 20px;
+}
+.Equity_associate {
+  margin-bottom: 40px;
+}
+.publication__button-link {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  background: #24a3ff;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+  padding: 17px 78px 16px 77px;
+  background: #24a3ff;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+}
+.publication__button {
+  text-align: center;
+  width: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 40px;
+}
+
+.publication__conteiner__currency_control-content {
+  display: none;
+}
+.publication__GPDR {
+  display: none;
+}
+.publication__boy {
+  display: none;
+}
+.publication__statue {
+  display: none;
+}
+.publication__destop__conteiner::after {
+  content: '';
+  display: none;
+  width: 335px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 4px solid #e6e6f0;
+  margin-bottom: 30px;
+}
+.publication__background {
+  display: none;
+}
+
+@media screen and (min-width: 800px) {
+  .publication__conteiner-text {
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .publication__headlines {
+    padding: 40px 0 40px 59px;
+  }
+  .publication__conteiner__currency_control-content::before {
+    content: '';
+    display: block;
+    width: 90%;
+    border: 4px solid #e6e6f0;
+    margin-bottom: 20px;
+  }
+  .publication__conteiner__currency_control-content {
+    color: black;
+    display: block;
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 20px;
+  }
+  .publication__destop__conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+    gap: 20px;
+  }
+  .publication__conteiner__currency_control {
+    height: auto;
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 40px;
+    padding: 20px 0 20px 0;
+    .publication__conteiner__content {
+      padding-left: 20px;
+    }
+    .publication__conteiner-date {
+      padding-left: 20px;
+      padding-bottom: 20px;
+    }
+  }
+  .publication__Equity_associate {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+
+    img {
+      width: 100%;
+    }
+  }
+  .commandment {
+    margin-left: 0;
+  }
+  .publication__statue {
+    display: block;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .Equity_associate {
+    width: auto;
+    height: auto;
+    .publication__conteiner__currency_control-content {
+      margin-bottom: 20px;
+    }
+  }
+  .publication__GPDR {
+    width: auto;
+    height: auto;
+    display: block;
+    margin-bottom: 40px;
+  }
+  .publication__boy {
+    display: block;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .publication__background {
+    display: none;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(
+      180deg,
+      rgba(245, 245, 250, 0),
+      rgba(245, 245, 250, 1)
+    );
+    position: absolute;
+    top: 720px;
+  }
+  .publication__conteiner {
+    position: relative;
+  }
+  .publication__button-link {
+    position: absolute;
+    top: 775px;
+    z-index: 2;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .publication__destop__conteiner::after {
+    width: 93%;
+    display: block;
+  }
+  .publication__button {
+    padding-bottom: 0;
+  }
+  .wrapper__conteiner {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .publication__conteiner__currency_control {
+    height: 265px;
+    width: 413px;
+  }
+
+  .publication__Equity_associate {
+    width: 413px;
+  }
+  .publication__statue {
+    img {
+      width: 414px;
+      height: 233px;
+    }
+  }
+  .Equity_associate {
+    width: 413px;
+    height: 420px;
+  }
+  .publication__GPDR {
+    width: 413px;
+    height: 462px;
+  }
+  .publication__boy {
+    img {
+      width: 414px;
+      height: 233px;
+    }
+  }
+  .wrapper__conteiner {
+    width: auto;
+  }
+  .publication__destop__conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-right: 60px;
+    justify-content: space-between;
+    gap: 0;
+  }
+  .publication__background {
+    top: 697px;
+    display: block;
+  }
+  .publication__destop__conteiner::after {
+    width: 100%;
+  }
+}

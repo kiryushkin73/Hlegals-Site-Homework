@@ -1,0 +1,244 @@
+.confidence__title {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #323264;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.confidence__conteiner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.confidence__item {
+  display: flex;
+  justify-content: center;
+  height: 90px;
+  width: 50%;
+
+  align-items: center;
+  img {
+    width: 80%;
+  }
+}
+.confidence__item-hillel {
+  background-color: #1c4280;
+  img {
+    width: 84%;
+  }
+}
+.confidence__item-Wanna {
+  background: #143646;
+  img {
+    width: 89%;
+  }
+}
+.confidence__item-tapgerine {
+  background: #f48b30;
+}
+.confidence__item-3dLook {
+  background: #9e4dc3;
+}
+.confidence__item-eco {
+  background: #dcf3f9;
+  img {
+    width: 55%;
+  }
+}
+.confidence__item-clickky {
+  background: #c71c36;
+  img {
+    width: 57%;
+  }
+}
+.confidence__item-oranger {
+  background: #fd9339;
+  img {
+    width: 76%;
+  }
+}
+.confidence__item-infratek {
+  background: #eaeaea;
+  img {
+    width: 63%;
+  }
+}
+.confidence__item-ultimate {
+  background: #000000;
+  img {
+    width: 59%;
+  }
+}
+.confidence__item-artprint {
+  background: #1d4568;
+  img {
+    width: 72%;
+  }
+}
+.confidence__item-sitypark {
+  background: #282240;
+  img {
+    width: 70%;
+  }
+}
+.confidence__item-adtelligent {
+  background: #e2e2e4;
+  img {
+    width: 68%;
+  }
+}
+@media screen and (min-width: 600px) {
+  .confidence__item-hillel {
+    background-color: #1c4280;
+    img {
+      width: 50%;
+    }
+  }
+  .confidence__item-Wanna {
+    background: #143646;
+    img {
+      width: 55%;
+    }
+  }
+  .confidence__item-tapgerine {
+    background: #f48b30;
+    img {
+      width: 49%;
+    }
+  }
+  .confidence__item-3dLook {
+    background: #9e4dc3;
+    img {
+      width: 50%;
+    }
+  }
+  .confidence__item-eco {
+    background: #dcf3f9;
+    img {
+      width: 30%;
+    }
+  }
+  .confidence__item-clickky {
+    background: #c71c36;
+    img {
+      width: 37%;
+    }
+  }
+  .confidence__item-oranger {
+    background: #fd9339;
+    img {
+      width: 48%;
+    }
+  }
+  .confidence__item-infratek {
+    background: #eaeaea;
+    img {
+      width: 50%;
+    }
+  }
+  .confidence__item-ultimate {
+    background: #000000;
+    img {
+      width: 35%;
+    }
+  }
+  .confidence__item-artprint {
+    background: #1d4568;
+    img {
+      width: 52%;
+    }
+  }
+  .confidence__item-sitypark {
+    background: #282240;
+    img {
+      width: 50%;
+    }
+  }
+  .confidence__item-adtelligent {
+    background: #e2e2e4;
+    img {
+      width: 51%;
+    }
+  }
+}
+@media screen and (min-width: 1120px) {
+  .confidence__item {
+    width: 25%;
+    height: 120px;
+  }
+  .confidence__item-hillel {
+    background-color: #1c4280;
+    img {
+      width: 60%;
+    }
+  }
+  .confidence__item-Wanna {
+    background: #143646;
+    img {
+      width: 55%;
+    }
+  }
+  .confidence__item-tapgerine {
+    background: #f48b30;
+    img {
+      width: 49%;
+    }
+  }
+  .confidence__item-3dLook {
+    background: #9e4dc3;
+    img {
+      width: 50%;
+    }
+  }
+  .confidence__item-eco {
+    background: #dcf3f9;
+    img {
+      width: 40%;
+    }
+  }
+  .confidence__item-clickky {
+    background: #c71c36;
+    img {
+      width: 37%;
+    }
+  }
+  .confidence__item-oranger {
+    background: #fd9339;
+    img {
+      width: 48%;
+    }
+  }
+  .confidence__item-infratek {
+    background: #eaeaea;
+    img {
+      width: 50%;
+    }
+  }
+  .confidence__item-ultimate {
+    background: #000000;
+    img {
+      width: 42%;
+    }
+  }
+  .confidence__item-artprint {
+    background: #1d4568;
+    img {
+      width: 52%;
+    }
+  }
+  .confidence__item-sitypark {
+    background: #282240;
+    img {
+      width: 50%;
+    }
+  }
+  .confidence__item-adtelligent {
+    background: #e2e2e4;
+    img {
+      width: 51%;
+    }
+  }
+}

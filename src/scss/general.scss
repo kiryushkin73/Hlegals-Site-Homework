@@ -1,8 +1,24 @@
 * {
   box-sizing: border-box;
 }
-.conteiner {
-  max-width: 1320px;
-  margin-left: auto;
-  margin-right: auto;
+html,
+body {
+  font-family: 'TTNormal', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+body {
+  color: white;
+  a {
+    color: white;
+  }
+
+  .background-color {
+    background: linear-gradient(
+      21deg,
+      rgba(50, 50, 100, 1),
+      rgba(50, 50, 100, 1),
+      rgba(122, 66, 94, 1)
+    );
+  }
 }
