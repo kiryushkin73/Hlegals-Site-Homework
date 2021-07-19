@@ -1,0 +1,165 @@
+footer {
+  background: #f5f5fa;
+  border-radius: 12px 12px 0px 0px;
+}
+.attainment__title {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-top: 28px;
+  color: #323264;
+  margin-bottom: 30px;
+}
+.attainment__legal {
+  width: 157px;
+  height: 57px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-image: url(../img/attainment__legal_small.png);
+  background-position: center;
+  background-size: revert;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+.attainment__prize {
+  width: 157px;
+  height: 57px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-image: url(../img/attainment__prize_small.png);
+  background-position: center;
+  background-size: revert;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.attainment__list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+.successful__cases__conteiner__toggle_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  padding-bottom: 30px;
+}
+.switching__label {
+  background-color: #24a3ff;
+  display: inline-block;
+  opacity: 0.2;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  padding: 5px;
+}
+.switching__checkbox {
+  display: none;
+  width: 100%;
+}
+.switching__checkbox:checked ~ .switching__label {
+  opacity: 1;
+}
+.switching__conteiner::after {
+  display: none;
+}
+.attainment__lider,
+.attainment__ulf {
+  display: none;
+}
+@media screen and (min-width: 600px) {
+  .attainment__lider {
+    width: 157px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-image: url(../img/attainment__lider.png);
+    background-position: center;
+    background-size: 83px 31px;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    border-radius: 12px;
+  }
+  .attainment__lider {
+    width: 157px;
+    height: 57px;
+    display: block;
+  }
+}
+@media screen and (min-width: 800px) {
+  .attainment__ulf {
+    width: 157px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-image: url(../img/attainment__ulf.png);
+    background-position: center;
+    background-size: 83px 31px;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    border-radius: 12px;
+  }
+  .attainment__ulf-img {
+    width: 100%;
+    padding: 16px 37px 12px 37px;
+    background: #ffffff;
+    border-radius: 12px;
+  }
+  .switching__label-off {
+    display: none;
+    overflow: hidden;
+  }
+  .successful__cases__conteiner__toggle_text {
+    gap: 0;
+  }
+  .switching__label {
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+  }
+}
+@media screen and (min-width: 1120px) {
+  .attainment__list {
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 20px;
+  }
+  .attainment__legal {
+    background-image: url(../img/attainment__legal.png);
+    width: 307px;
+    height: 107px;
+  }
+  .attainment__prize {
+    width: 307px;
+    height: 107px;
+    background-image: url(../img/attainment__prize.png);
+  }
+  .attainment__lider {
+    width: 307px;
+    height: 107px;
+    background-size: 195px 60px;
+  }
+  .attainment__ulf {
+    width: 307px;
+    height: 107px;
+    background-size: 195px 60px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .attainment__list {
+    margin-left: 40px;
+    margin-right: 40px;
+    gap: 0;
+    justify-content: space-between;
+  }
+}

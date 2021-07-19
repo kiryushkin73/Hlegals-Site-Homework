@@ -590,8 +590,8 @@ body {
     flex-direction: row;
     justify-content: flex-end; }
   .navigation__item {
-    padding-left: 7.5px;
-    padding-right: 7.5px; }
+    margin-left: 7.5px;
+    margin-right: 7.5px; }
   .list__item {
     padding-right: 13px; }
   .lange-container {
@@ -645,8 +645,8 @@ body {
     flex-direction: row;
     justify-content: flex-end; }
   .navigation__item {
-    padding-left: 7.5px;
-    padding-right: 7.5px; }
+    margin-left: 7.5px;
+    margin-right: 7.5px; }
   .list__item {
     padding-right: 13px; }
   .lange-container {
@@ -961,7 +961,7 @@ body {
 .teams__background {
   background: #cacadb;
   border-radius: 0px 0px 12px 12px;
-  width: 335px;
+  width: 93%;
   height: 10px;
   margin-left: auto;
   margin-right: auto; }
@@ -969,7 +969,7 @@ body {
 .teams__background-two {
   background: #e7e7f2;
   border-radius: 0px 0px 12px 12px;
-  width: 295px;
+  width: 87%;
   height: 10px;
   margin-left: auto;
   margin-right: auto;
