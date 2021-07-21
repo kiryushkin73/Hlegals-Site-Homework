@@ -747,7 +747,7 @@ body .background-color {
 .electronic_commerce {
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643e72 87.46%);
   border-radius: 0px 0px 12px 12px; }
-  .electronic_commerce p {
+  .electronic_commerce h3 {
     margin-bottom: 40px;
     margin-left: 20px;
     margin-right: 20px; }
@@ -811,7 +811,7 @@ body .background-color {
       margin-right: auto; }
   .hero-text {
     text-align: center; }
-  .elctronic_commerce_conteiner p {
+  .elctronic_commerce_conteiner h3 {
     text-align: center; }
   .servants__conteiner__commerce {
     gap: 0;
@@ -828,7 +828,7 @@ body .background-color {
   .hero__conteiner .hero-text {
     font-size: 21px;
     line-height: 30px; }
-  .elctronic_commerce_conteiner p {
+  .elctronic_commerce_conteiner h3 {
     font-size: 21px;
     line-height: 30px; }
   .about_It-conteiner {
@@ -856,7 +856,7 @@ body .background-color {
     width: 861px;
     margin-left: auto;
     margin-right: auto; }
-  .elctronic_commerce_conteiner p {
+  .elctronic_commerce_conteiner h3 {
     width: 865px;
     margin-left: auto;
     margin-right: auto; }
