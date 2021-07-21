@@ -14,6 +14,8 @@ const watcher = () => {
   watch('./src/about/scss/**/*.scss', sassTaskAbout);
   watch('./src/services/scss/**/*.scss', sassTaskServices);
   watch('./src/services/services_page/scss/**/*.scss', sassTaskServices_page);
+  watch('./src/Team/scss/**/*.scss', sassTaskTeam);
+  watch('./src/Team/Team_member_page/scss/**/*.scss', sassTaskTeam_member_page);
   watch('./src/*.html').on('change', browserSync.reload);
 };
 
@@ -39,6 +41,18 @@ const sassTaskServices_page = () =>
   src('./src/services/services_page/scss/style.scss')
     .pipe(sass())
     .pipe(dest('./src/services/services_page/css'))
+    .pipe(browserSync.stream());
+
+const sassTaskTeam = () =>
+  src('./src/Team/scss/style.scss')
+    .pipe(sass())
+    .pipe(dest('./src/Team/css'))
+    .pipe(browserSync.stream());
+
+const sassTaskTeam_member_page = () =>
+  src('./src/Team/Team_member_page/scss/style.scss')
+    .pipe(sass())
+    .pipe(dest('./src/Team/Team_member_page/css'))
     .pipe(browserSync.stream());
 
 exports.default = series(sassTask, parallel(browserTask, watcher));

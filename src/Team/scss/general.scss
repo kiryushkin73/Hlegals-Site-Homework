@@ -1,0 +1,133 @@
+.team__list-item-content {
+  a {
+    padding-right: 20px;
+  }
+}
+.team-list {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.logo {
+  .logo__img {
+    margin-bottom: 29px;
+  }
+}
+.team__list-item--img {
+  width: 158px;
+}
+.team {
+  h1 {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: bold;
+
+    margin-bottom: 20px;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(#f0145a, #ef8080);
+    -webkit-background-clip: text;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+.team__list-item {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.team__list-item:last-child {
+  margin-bottom: 40px;
+}
+.team__list-item-content {
+  align-self: flex-end;
+  margin-left: 20px;
+  h2 {
+    font-size: 18px;
+    line-height: 21px;
+    color: #323264;
+    margin-bottom: 5px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #b3b3ba;
+    margin-bottom: 10px;
+  }
+}
+.footer__conteiner {
+  .footer__adress::before {
+    display: none;
+  }
+}
+.footer__conteiner__content-adress {
+  padding-top: 23px;
+}
+@media screen and (min-width: 600px) {
+  .logo__img {
+    width: 200px;
+  }
+  .team {
+    h1 {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+  }
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .team__list-item {
+    width: 350px;
+  }
+}
+@media screen and (min-width: 850px) {
+  .logo__img {
+    width: 270px;
+  }
+}
+.footer__conteiner {
+  padding-top: 32px;
+}
+.footer__conteiner__content-adress {
+  padding-top: 0;
+}
+.team__list-item {
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+}
+@media screen and (min-width: 950px) {
+  .logo__img {
+    width: 364px;
+  }
+  .team {
+    h1 {
+      width: 864px;
+      margin-bottom: 80px;
+      font-size: 42px;
+      line-height: 50px;
+    }
+  }
+}
+@media screen and (min-width: 1240px) {
+  .team-list {
+    margin-left: 60px;
+    margin-right: 60px;
+    justify-content: space-evenly;
+  }
+  .team__list-item {
+    flex-direction: column;
+    width: 413px;
+  }
+  .team__list-item-content {
+    align-self: start;
+    margin-left: 0;
+  }
+  .team__list-item--img {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}
