@@ -51,17 +51,18 @@
     width: 223px;
     position: absolute;
     top: 117px;
-    right: 69%;
+    right: 64%;
     margin-right: 20px;
   }
   .manifestation_achieved {
     position: relative;
     align-self: center;
+    width: 412px;
   }
 }
 @media screen and (min-width: 900px) {
   .manifestation_achieved::before {
-    right: 75%;
+    right: 71%;
   }
   .manifestation {
     margin-bottom: 100px;
@@ -69,7 +70,7 @@
 }
 @media screen and (min-width: 1120px) {
   .manifestation_achieved::before {
-    right: 79%;
+    right: 73%;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -92,7 +93,7 @@
   }
   .manifestation_achieved::before {
     width: 307px;
-    right: 70%;
-    top: 147px;
+    right: 63%;
+    top: 160px;
   }
 }

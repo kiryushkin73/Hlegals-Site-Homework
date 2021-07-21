@@ -1,0 +1,11 @@
+.footer__adress::before {
+  display: none;
+}
+.footer {
+  padding: 23px;
+}
+@media screen and (min-width: 800px) {
+  .footer {
+    padding: 35px;
+  }
+}

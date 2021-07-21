@@ -53,12 +53,9 @@ html {
   .logo__img {
     width: 270px;
   }
-
-  @media screen and (min-width: 950px) {
-    .logo__img {
-      width: 364px;
-    }
-  }
 }
-@media screen {
+@media screen and (min-width: 950px) {
+  .logo__img {
+    width: 364px;
+  }
 }

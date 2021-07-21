@@ -1,0 +1,36 @@
+@media screen and (min-width: 600px) {
+  .servants__conteiner__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .servants__conteiner__list__item {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1120px) {
+  .servants__conteiner__list__item {
+    width: 30%;
+  }
+  body {
+    .background-color {
+      background: linear-gradient(
+        12deg,
+        rgba(50, 50, 100, 1),
+        rgba(50, 50, 100, 1),
+        rgba(122, 66, 94, 1)
+      );
+    }
+  }
+}
+@media screen and (min-width: 1240px) {
+  body {
+    .background-color {
+      background: linear-gradient(
+        10deg,
+        rgba(50, 50, 100, 1),
+        rgba(50, 50, 100, 1),
+        rgba(122, 66, 94, 1)
+      );
+    }
+  }
+}
