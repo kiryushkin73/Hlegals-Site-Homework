@@ -745,7 +745,7 @@ body .background-color {
     padding-bottom: 20px; }
 
 .electronic_commerce {
-  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643e72 87.46%);
+  background: linear-gradient(191.57deg, #323264 11.93%, #323264 57.17%, #643e72 87.46%);
   border-radius: 0px 0px 12px 12px; }
   .electronic_commerce h3 {
     margin-bottom: 40px;
@@ -863,7 +863,9 @@ body .background-color {
   .electronic_commerce-list {
     width: 500px; }
   .electronic_commerce-text {
-    margin-left: 7%; } }
+    margin-left: 7%; }
+  body .background-color {
+    background-image: url(../img/header__background.png); } }
 
 @media screen and (min-width: 1300px) {
   .electronic_commerce-text {

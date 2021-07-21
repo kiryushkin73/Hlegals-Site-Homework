@@ -38,7 +38,7 @@ body {
 }
 .electronic_commerce {
   background: linear-gradient(
-    228.57deg,
+    191.57deg,
     #323264 11.93%,
     #323264 57.17%,
     #643e72 87.46%
@@ -193,6 +193,11 @@ body {
   }
   .electronic_commerce-text {
     margin-left: 7%;
+  }
+  body {
+    .background-color {
+      background-image: url(../img/header__background.png);
+    }
   }
 }
 @media screen and (min-width: 1300px) {
