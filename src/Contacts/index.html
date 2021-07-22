@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="background-color">
+        <div class="header__conteiner">
+          <div class="lange-container">
+            <div class="lange-container__lange">
+              <input
+                class="lange__checkbox"
+                checked
+                name="lange"
+                id="ukLangeCheckbox"
+                type="radio"
+              />
+              <label class="lange__label" for="ukLangeCheckbox">ук</label>
+            </div>
+            <div class="lange-container__lang">
+              <input
+                class="lange__checkbox"
+                name="lange"
+                id="ruLangeCheckbox"
+                type="radio"
+              />
+              <label class="lange__label" for="ruLangeCheckbox">ру</label>
+            </div>
+            <div class="lange-container__lang">
+              <input
+                class="lange__checkbox"
+                name="lange"
+                id="enLangeCheckbox"
+                type="radio"
+              />
+              <label class="lange__label" for="enLangeCheckbox">en</label>
+            </div>
+          </div>
+          <div class="header__conteiner__list">
+            <ul class="header__conteiner__list__contacts">
+              <li
+                class="list__item header__conteiner__list__contacts-address"
+                id="header__conteiner__list__contacts-address"
+              >
+                Одеса, Адміральський пр., 3
+              </li>
+              <li class="list__item header__conteiner__list__contacts-phone">
+                <a href="tel:+380503901591">+38 (050) 390 15 91</a>
+              </li>
+              <li
+                class="list__item header__conteiner__list__contacts-facebook"
+                id="header__conteiner__list__contacts-facebook"
+              >
+                <a href="#"
+                  ><img
+                    src="../img/Facebook_header.svg"
+                    class="facebook__logo"
+                    alt="the logo fecebook"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="logo__conteiner">
+          <div class="conteiner logo__conteiner__menu">
+            <a href="../index.html" class="logo">
+              <img
+                src="./img/Contacts__logo.svg"
+                alt="namelogo_Hlagals"
+                class="logo__img"
+              />
+            </a>
+          </div>
+          <nav class="navigation">
+            <input type="checkbox" class="" id="hamburgerCheckbox" />
+            <label for="hamburgerCheckbox"
+              ><img
+                src="../../img/Hamburger_navigation.svg"
+                class="hamburger_navigation-img"
+                alt="navigation menu"
+            /></label>
+            <ul class="navigation__list navigation__list--active">
+              <li class="navigation__item">
+                <a href="../../about" rel="noopener noreferrer"> о нас </a>
+              </li>
+              <li class="navigation__item">
+                <a
+                  href="../services"
+                  rel="noopener noreferrer"
+                  class="navigation__hover"
+                >
+                  послуги</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a href="../Team" rel="noopener noreferrer"> команда</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" rel="noopener noreferrer"> публікації</a>
+              </li>
+              <li class="navigation__item navigation__item--active">
+                <a href="./" rel="noopener noreferrer"> контакти</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="contacts__page">
+        <div class="contacts__page-contacts">
+          <p class="contacts__page-location">
+            Одеса,<br />
+            Адміральський пр., 3
+          </p>
+          <a class="contacts__page-number" href="tel:+380503901591"
+            >+38 (050) 390 15 91</a
+          >
+          <a href="mailto:contact@hlegals.net" class="contacts__page-mailto"
+            >contact@hlegals.net</a
+          >
+          <div class="contacts__page-facebook__conteiner">
+            <a class="contacts__page-facebook" href="#"
+              ><img
+                src="../img/Footer__Facebook-img.svg"
+                class="facebook__logo-footer"
+                alt="the logo fecebook"
+            /></a>
+            <p>Наша сторінка в фейсбуці</p>
+          </div>
+        </div>
+        <div class="contacts__page-help">
+          <form action="question">
+            <h2>Ми хотіли б Вам допомогти</h2>
+            <input
+              name="username"
+              type="username"
+              id="username"
+              placeholder="Iм’я"
+              autofocus
+              maxlength="10"
+            />
+            <input
+              name="message"
+              type="text"
+              id="message"
+              placeholder="Повідомлення"
+              autofocus
+            />
+            <h3>Як вам відповісти?</h3>
+            <input
+              name="number"
+              type="number"
+              id="number"
+              placeholder="Номер телефона"
+              autofocus
+            />
+            <input
+              name="Email"
+              type="email"
+              id="email"
+              placeholder="Чи email"
+              autofocus
+            />
+            <input
+              type="submit"
+              name="send_a_question"
+              id="submit"
+              value="Надіслати запит"
+            />
+          </form>
+        </div>
+      </section>
+      <div class="maps">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2749.6384674723654!2d30.737941415590278!3d46.43604497912456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c63396894457b7%3A0x7f6c5236cbcb70c8!2z0JDQtNC80LjRgNCw0LvRjNGB0LrQuNC5INC_0YDQvtGB0L8uLCAzLCDQntC00LXRgdGB0LAsINCe0LTQtdGB0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDY1MDAw!5e0!3m2!1sru!2sua!4v1626979401136!5m2!1sru!2sua"
+          width="100%"
+          height="600"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__conteiner">
+        <div class="footer__conteiner__content">
+          <div class="footer__conteiner__content-adress">
+            <p class="footer__adress">Одеса, Адміральський пр., 3</p>
+            <a
+              href="https://www.google.com/maps/place/%D0%90%D0%B4%D0%BC%D0%B8%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9+%D0%BF%D1%80%D0%BE%D1%81%D0%BF.,+3,+%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%B0,+%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+65000/@46.436045,30.7379414,17z/data=!3m1!4b1!4m5!3m4!1s0x40c63396894457b7:0x7f6c5236cbcb70c8!8m2!3d46.436045!4d30.7401301"
+              class="footer__maps"
+            >
+              Подивитися на мапі
+            </a>
+          </div>
+          <div class="footer__conteiner__content-contacts">
+            <img
+              src="../img/Footer__Facebook-img.svg"
+              class="footer__fecebook-img"
+              alt="facebook"
+            />
+            <a
+              href="tel:+380503901591"
+              class="footer__conteiner__list__contacts-phone"
+              >+38 (050) 390 15 91</a
+            >
+            <a href="mailto:contact@hlegals.net" class="footer__mailto"
+              >contact@hlegals.net</a
+            >
+          </div>
+        </div>
+        <div>
+          <span class="footer__copyright"
+            >© 2021 ТОВ Юридична компанія «HLEGALS»</span
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

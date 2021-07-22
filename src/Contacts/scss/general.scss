@@ -1,0 +1,203 @@
+.logo {
+  .logo__img {
+    width: 189px;
+  }
+}
+.contacts__page-contacts {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.contacts__page-location {
+  font-size: 21px;
+  line-height: 30px;
+  color: #323264;
+}
+.contacts__page-location::after {
+  content: '';
+  display: block;
+  width: 93%;
+  border: 4px solid #e6e6f0;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.contacts__page-number {
+  font-size: 21px;
+  line-height: 30px;
+  color: #46466e;
+  display: block;
+  margin-bottom: 19px;
+}
+.contacts__page-mailto {
+  font-size: 21px;
+  line-height: 30px;
+  color: #24a3ff;
+}
+.contacts__page-facebook__conteiner {
+  display: flex;
+  margin-bottom: 40px;
+  p {
+    width: 123px;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #24a3ff;
+    align-self: center;
+  }
+  img {
+    margin-right: 10px;
+  }
+}
+.contacts__page-mailto::after {
+  content: '';
+  width: 93%;
+  border: 4px solid #e6e6f0;
+  display: block;
+  margin-top: 41px;
+  margin-bottom: 20px;
+}
+.contacts__page-help {
+  background: #f5f5fa;
+  padding-bottom: 20px;
+  h2 {
+    padding-top: 20px;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #f0145a;
+    margin-left: 20px;
+    margin-right: 20x;
+    margin-bottom: 20px;
+  }
+}
+
+#username {
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 47px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+#message {
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 180px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-bottom: 143px;
+}
+.contacts__page-help {
+  h3 {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #b3b3ba;
+    margin-left: 20px;
+    margin-bottom: 22px;
+  }
+}
+#number {
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 47px;
+  padding-left: 10px;
+  margin-bottom: 8px;
+}
+#email {
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 47px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+#submit {
+  background: #24a3ff;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+  border: none;
+  padding: 16.5px 0 16.5px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+}
+.maps {
+  padding-top: 40px;
+  background-color: white;
+}
+@media screen and (min-width: 450px) {
+  .contacts__page {
+    text-align: center;
+  }
+  .contacts__page-facebook__conteiner {
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 600px) {
+  .logo {
+    .logo__img {
+      width: 200px;
+    }
+  }
+}
+@media screen and (min-width: 800px) {
+  .contacts__page-contacts {
+    width: 40%;
+  }
+  .contacts__page-help {
+    width: 40%;
+  }
+  .contacts__page {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 850px) {
+  .logo {
+    .logo__img {
+      width: 270px;
+    }
+  }
+}
+@media screen and (min-width: 950px) {
+  .logo {
+    .logo__img {
+      width: 364px;
+    }
+  }
+}
+@media screen and (min-width: 1120px) {
+  .contacts__page-help {
+    h2 {
+      font-size: 32px;
+      line-height: 38px;
+    }
+  }
+}
+@media screen and (min-width: 1440px) {
+  .contacts__page-contacts {
+    width: 414px;
+    margin-right: 153px;
+  }
+  .contacts__page-help {
+    width: 527px;
+    margin-bottom: 80px;
+  }
+  .contacts__page {
+    text-align: start;
+  }
+  .contacts__page-facebook__conteiner {
+    justify-content: start;
+  }
+}

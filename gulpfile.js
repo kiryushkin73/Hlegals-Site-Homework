@@ -16,6 +16,7 @@ const watcher = () => {
   watch('./src/services/services_page/scss/**/*.scss', sassTaskServices_page);
   watch('./src/Team/scss/**/*.scss', sassTaskTeam);
   watch('./src/Team/Team_page/scss/**/*.scss', sassTaskTeam_page);
+  watch('./src/Contacts/scss/**/*.scss', sassTaskContacts);
   watch('./src/*.html').on('change', browserSync.reload);
 };
 
@@ -53,6 +54,12 @@ const sassTaskTeam_page = () =>
   src('./src/Team/Team_page/scss/style.scss')
     .pipe(sass())
     .pipe(dest('./src/Team/Team_page/css'))
+    .pipe(browserSync.stream());
+
+const sassTaskContacts = () =>
+  src('./src/Contacts/scss/style.scss')
+    .pipe(sass())
+    .pipe(dest('./src/Contacts/css'))
     .pipe(browserSync.stream());
 
 exports.default = series(sassTask, parallel(browserTask, watcher));
