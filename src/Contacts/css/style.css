@@ -685,6 +685,9 @@ html {
 .logo__conteiner {
   margin-bottom: 0; }
 
+.logo .logo__img {
+  width: 189px; }
+
 @media screen and (min-width: 800px) {
   .logo__conteiner {
     height: 82px; } }
@@ -705,7 +708,8 @@ html {
   margin-right: 20px; }
 
 .logo .logo__img {
-  margin-bottom: 29px; }
+  margin-bottom: 29px;
+  width: 185px; }
 
 .team__list-item--img {
   width: 158px; }
@@ -802,7 +806,7 @@ html {
     width: 100%; } }
 
 .logo .logo__img {
-  width: 189px; }
+  width: 185px; }
 
 .contacts__page-contacts {
   display: flex;
