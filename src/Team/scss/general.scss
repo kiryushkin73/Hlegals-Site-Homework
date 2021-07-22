@@ -87,17 +87,17 @@
   .logo__img {
     width: 270px;
   }
-}
-.footer__conteiner {
-  padding-top: 32px;
-}
-.footer__conteiner__content-adress {
-  padding-top: 0;
-}
-.team__list-item {
-  display: flex;
-  margin-left: 0;
-  margin-right: 0;
+  .footer__conteiner {
+    padding-top: 32px;
+  }
+  .footer__conteiner__content-adress {
+    padding-top: 0;
+  }
+  .team__list-item {
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 @media screen and (min-width: 950px) {
   .logo__img {
